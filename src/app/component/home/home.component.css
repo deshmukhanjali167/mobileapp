@@ -3,7 +3,7 @@
 
 .wrapper {
     border-radius: 32px;
-    width: 375px;
+    width: 320px;
     border: 12px solid black;
     /* border-radius: 50px; */
 }
@@ -15,10 +15,33 @@
 .mini_font {
     font-size: 9px;
 }
-@media only screen and (min-width: 320px) {
+ /* mobile top shape */
+ .mobile-shape {
+    border-radius: 50px;
+    border: black;
+    width: 158px;
+    height: 29px;
+    top: -9px;
+    left: 77px;
+    background-color: black;
+}
+
+
+  
+  @media only screen and (min-width: 320px) {
     .wrapper {
         border:none;
     }
+
+    .mobile-shape { 
+        border: none;
+        width: 0px;
+        height: 0px;
+        top: none;
+        left: none;
+        background-color: none;
+    }
+    
   }
 
 @media only screen and (min-width: 1200px) {
@@ -27,4 +50,17 @@
     border: 12px solid black;
     /* border-radius: 50px; */
 }
-  }
+.mobile-shape {
+    border-radius: 50px;
+    border: black;
+    width: 158px;
+    height: 29px;
+    top: -7px;
+    left: 77px;
+    background-color: black;
+}
+
+
+}
+
+
