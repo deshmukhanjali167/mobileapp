@@ -1,5 +1,6 @@
 .main-wrapper {
     width: 320px;
+
 }
 
 .wrapper {
@@ -126,7 +127,7 @@
 /* buy and sell tooltip css */
 .button-container {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .custom-tooltip {
@@ -155,6 +156,28 @@
     .wrapper {
         border: none;
     }
+
+    .mobile-shape {
+        border: none;
+        width: 0px;
+        height: 0px;
+        top: none;
+        left: none;
+        background-color: none;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    .main-wrapper {
+        width: 375px;
+    }
+
+    .wrapper {
+        border: none;
+        padding: 6px;
+    }
+
     .mobile-shape {
         border: none;
         width: 0px;
@@ -170,10 +193,12 @@
     .main-wrapper {
         width: 425px;
     }
+
     .wrapper {
         border: none;
         padding: 8px;
     }
+
     .mobile-shape {
         border: none;
         width: 0px;
@@ -183,13 +208,14 @@
         background-color: none;
     }
 }
+
 @media only screen and (min-width: 768px) {
     .main-wrapper {
         width: 768px;
+        padding: 0px
     }
 
     .wrapper {
-
         padding: 20px;
     }
 
@@ -197,7 +223,28 @@
         width: 0px;
         height: 0px;
     }
+}
 
+
+@media only screen and (min-width: 1024px) {
+    .main-wrapper {
+        width: 320px;
+    }
+
+    .wrapper {
+        border-radius: 32px;
+        border: 12px solid black;
+    }
+
+    .mobile-shape {
+        border-radius: 50px;
+        border: black;
+        width: 158px;
+        height: 29px;
+        top: -11px;
+        left: 66px;
+        background-color: black;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -222,14 +269,16 @@
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1349px) {
     .main-wrapper {
         width: 320px;
     }
 
     .wrapper {
+        padding: 20px;
         border-radius: 32px;
         border: 12px solid black;
+
     }
 
     .mobile-shape {
@@ -242,4 +291,3 @@
         background-color: black;
     }
 }
-
