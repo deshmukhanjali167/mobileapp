@@ -7,7 +7,6 @@
     border-radius: 32px;
     padding: 8px;
     border: 12px solid black;
-
 }
 
 .font_size {
@@ -42,30 +41,6 @@
         left: none;
         background-color: none;
     }
-
-}
-
-@media only screen and (min-width: 375) {
-    .main-wrapper {
-        width: 375px;
-        text-align: left;
-    }
-
-    .wrapper {
-        border-radius: 32px;
-        border: 12px solid black;
-        margin-top: 50px;
-    }
-
-    .mobile-shape {
-        border-radius: 50px;
-        border: black;
-        width: 158px;
-        height: 29px;
-        top: -11px;
-        left: 66px;
-        background-color: black;
-    }
 }
 
 @media only screen and (min-width: 420px) {
@@ -89,7 +64,26 @@
     }
 
 }
+@media only screen and (min-width: 768px) {
+    .main-wrapper {
+        width: 700px;
+        text-align: left;
+    }
 
+    .wrapper {
+        padding: 20px;
+    }
+
+    .mobile-shape {
+        border-radius: 50px;
+        border: black;
+        width: 0px;
+        height: 0px;
+        top: -11px;
+        left: 66px;
+        background-color: black;
+    }
+}
 
 @media only screen and (min-width: 1200px) {
     .main-wrapper {
@@ -101,7 +95,6 @@
         border-radius: 32px;
         border: 12px solid black;
         margin-top: 50px;
-        /* border-radius: 50px; */
     }
 
     .mobile-shape {
@@ -120,11 +113,13 @@
         width: 320px;
         text-align: left;
     }
+
     .wrapper {
         border-radius: 32px;
         border: 12px solid black;
         /* border-radius: 50px; */
     }
+
     .mobile-shape {
         border-radius: 50px;
         border: black;
@@ -136,24 +131,3 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .main-wrapper {
-        width: 320px;
-        text-align: left;
-    }
-    .wrapper {
-        border-radius: 32px;
-        border: 12px solid black;
-        padding: 20px;
-        /* border-radius: 50px; */
-    }
-    .mobile-shape {
-        border-radius: 50px;
-        border: black;
-        width: 158px;
-        height: 29px;
-        top: -11px;
-        left: 66px;
-        background-color: black;
-    }
-}
