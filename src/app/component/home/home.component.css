@@ -68,9 +68,9 @@
     }
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 425px) {
     .main-wrapper {
-        width: 420px;
+        width: 425px;
         text-align: left;
     }
 
@@ -138,22 +138,20 @@
 
 @media only screen and (min-width: 768px) {
     .main-wrapper {
-        width: 320px;
+        width: 768px;
         text-align: left;
     }
     .wrapper {
-        border-radius: 32px;
-        border: 12px solid black;
-        padding: 20px;
-        /* border-radius: 50px; */
+
+        border: none;
+
     }
     .mobile-shape {
-        border-radius: 50px;
-        border: black;
-        width: 158px;
-        height: 29px;
-        top: -11px;
-        left: 66px;
-        background-color: black;
+        border: none;
+        width: 0px;
+        height: 0px;
+        top: none;
+        left: none;
+        background-color: none;
     }
 }
