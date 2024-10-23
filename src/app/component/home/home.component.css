@@ -68,9 +68,9 @@
     }
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 420px) {
     .main-wrapper {
-        width: 425px;
+        width: 420px;
         text-align: left;
     }
 
@@ -138,20 +138,22 @@
 
 @media only screen and (min-width: 768px) {
     .main-wrapper {
-        width: 768px;
+        width: 320px;
         text-align: left;
     }
     .wrapper {
-
-        border: none;
-
+        border-radius: 32px;
+        border: 12px solid black;
+        padding: 20px;
+        /* border-radius: 50px; */
     }
     .mobile-shape {
-        border: none;
-        width: 0px;
-        height: 0px;
-        top: none;
-        left: none;
-        background-color: none;
+        border-radius: 50px;
+        border: black;
+        width: 158px;
+        height: 29px;
+        top: -11px;
+        left: 66px;
+        background-color: black;
     }
 }
